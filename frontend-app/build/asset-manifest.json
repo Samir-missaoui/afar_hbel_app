@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a869149.css",
+    "main.js": "/static/js/main.6f3d7115.js",
+    "static/media/entreprises.png": "/static/media/entreprises.0123406f0a8088ebbf7c.png",
+    "static/media/habillement.png": "/static/media/habillement.de01630a41bf8a22a51f.png",
+    "static/media/info.png": "/static/media/info.9294eaa9770cd77de380.png",
+    "static/media/maison& jardin.png": "/static/media/maison& jardin.c699f96feb33e9ea5926.png",
+    "static/media/immobiliers.png": "/static/media/immobiliers.26937fda3d626d8cfe2c.png",
+    "static/media/loisir.png": "/static/media/loisir.c82e635c8237d98962de.png",
+    "static/media/emploi.png": "/static/media/emploi.b5eaba3ecd71159b010e.png",
+    "static/media/véhicules.png": "/static/media/véhicules.b166eb40362828e8523d.png",
+    "index.html": "/index.html",
+    "main.0a869149.css.map": "/static/css/main.0a869149.css.map",
+    "main.6f3d7115.js.map": "/static/js/main.6f3d7115.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a869149.css",
+    "static/js/main.6f3d7115.js"
+  ]
+}

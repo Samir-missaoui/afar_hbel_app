@@ -1,0 +1,188 @@
+.background {
+  background-size: "cover";
+  max-width: 100%;
+  /* background-image: url("https://images.assetsdelivery.com/compings_v2/povareshka3/povareshka31906/povareshka3190600033.jpg"); */
+}
+.backgroundlateral {
+  background-size: "cover";
+  /* background-image: url("https://static.vecteezy.com/ti/vecteur-libre/t2/139741-bleu-grunge-free-vector-background-gratuit-vectoriel.jpg"); */
+}
+.display {
+  display: flex;
+}
+.flexarround {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 80px;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.margin {
+  margin-top: 20px;
+}
+.margine {
+  margin-top: 20px;
+}
+.title {
+  color: #fff;
+  font-size: 80px;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+.erreur {
+  font-size: 18px;
+  color: red;
+  margin-top: 10px;
+}
+.css-1ebw9a4-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.annonce_modal2 {
+  margin-right: auto;
+  align-items: center;
+}
+/* .child {
+  flex: 1 0 1000px;
+} */
+.flexspacebetween {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.flexend {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.annonce_modal .css-wjh20t-MuiPagination-ul > li > button,
+.annonce_modal .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon,
+.annonce_modal .css-bdhsul-MuiTypography-root-MuiDialogTitle-root,
+.annonce_modal .css-qfso29-MuiTypography-root-MuiDialogContentText-root,
+.annonce_modal .css-1x51dt5-MuiInputBase-input-MuiInput-input,
+.annonce_modal .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+.annonce_modal .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon,
+.annonce_modal .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root,
+.annonce_modal .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root,
+.annonce_modal .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root,
+.annonce_modal
+  .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  color: #fff !important;
+}
+.css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar {
+  align-items: baseline !important;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  background-color: rgb(0 0 0 / 60%) !important;
+}
+.annonce_modal2 .css-i4bv87-MuiSvgIcon-root,
+.annonce_modal2 .css-e4w4as-MuiFormLabel-root-MuiInputLabel-root,
+.annonce_modal2 .css-cio0x1-MuiInputBase-root-MuiFilledInput-root,
+.annonce_modal
+  .css-10botns-MuiInputBase-input-MuiFilledInput-input
+  .annonce_modal
+  .css-10botns-MuiInputBase-input-MuiFilledInput-input:focus {
+  color: #fff !important;
+}
+a#collasible-nav-dropdown.dropdown-toggle.nav-link {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+li.MuiMenuItem-root.MuiMenuItem-gutters.MuiButtonBase-root.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  padding: 0px;
+}
+.me-auto .dropdown-toggle::after {
+  display: none;
+}
+input#outlined-basic-email.MuiInputBase-input.MuiInput-input,
+label#outlined-basic-email-label.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated {
+  color: white;
+}
+p.MuiTypography-root.MuiListItemText-secondary.MuiTypography-body2.MuiTypography-colorTextSecondary.MuiTypography-displayBlock {
+  color: darkturquoise;
+}
+.margin input {
+  min-width: 550px;
+}
+.margine input {
+  max-width: 400px;
+}
+.css-ag7rrr-MuiTypography-root {
+  text-align: -webkit-center;
+}
