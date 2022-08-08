@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "server": "nodemon server.js",
-    "start": "concurrently \"npm run server\" \"cd frontend-app && npm start\""
+    "start": "concurrently \"npm run server\" \"cd frontend-app && npm start\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i --prefix frontend-app && npm run build --prefix frontend-app"
   },
   "keywords": [],
   "author": "",
