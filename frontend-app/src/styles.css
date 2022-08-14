@@ -137,12 +137,15 @@ video {
 .annonce_modal .css-1x51dt5-MuiInputBase-input-MuiInput-input,
 .annonce_modal .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
 .annonce_modal .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon,
-.annonce_modal .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root,
-.annonce_modal .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root,
+.annonce_modal .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root/* ,
+.annonce_modal .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root */,
 .annonce_modal .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root
 /* .annonce_modal
   .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input */ {
-  color: #fff !important;
+  color: red !important;
+}
+.annonce_modal .MuiFormLabel-root.MuiInputLabel-root {
+  color: #fff;
 }
 .annonce_modal .MuiSelect-select.MuiInputBase-input.MuiOutlinedInput-input {
   color: #fff !important;
