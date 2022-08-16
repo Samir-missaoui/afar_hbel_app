@@ -145,7 +145,7 @@ const Postdesc = () => {
             {auth.token && auth.user?._id !== post.postdesc?.owner ? (
               <div className="box-3">
                 <Link
-                  to={`/profile/${post.postdesc?.owner}`}
+                  to={`/messages/${post.postdesc?.owner}`}
                   key={post.postdesc?.owner}
                   style={{ color: "inherit", textDecoration: "inherit" }}
                 >
