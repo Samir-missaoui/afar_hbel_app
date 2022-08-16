@@ -131,14 +131,40 @@ const Postdesc = () => {
                 </div>
               </div>
             ) : null}
-            {!auth.token || auth.user?._id !== post.postdesc?.owner ? (
+            {auth.token && auth.user?._id !== post.postdesc?.owner ? (
               <div className="box-3">
                 <Link
                   to={`/profile/${post.postdesc?.owner}`}
                   key={post.postdesc?.owner}
                   style={{ color: "inherit", textDecoration: "inherit" }}
                 >
-                  <div className="btn btn-three">Contacter le vendeur</div>
+                  <div className="btn btn-three">Découvrir le vendeur</div>
+                </Link>
+              </div>
+            ) : null}
+            {auth.token && auth.user?._id !== post.postdesc?.owner ? (
+              <div className="box-3">
+                <Link
+                  to={`/profile/${post.postdesc?.owner}`}
+                  key={post.postdesc?.owner}
+                  style={{ color: "inherit", textDecoration: "inherit" }}
+                >
+                  <div className="btn btn-three">
+                    Contacter le vendeur par message
+                  </div>
+                </Link>
+              </div>
+            ) : null}
+            {!auth.token ? (
+              <div className="box-3">
+                <Link
+                  to={`/login`}
+                  key={post.postdesc?.owner}
+                  style={{ color: "inherit", textDecoration: "inherit" }}
+                >
+                  <div className="btn btn-three">
+                    se connecter pour contacter le vendeur
+                  </div>
                 </Link>
               </div>
             ) : null}
